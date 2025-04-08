@@ -5,7 +5,7 @@ import {
   RecommendationResponse, 
   ErrorResponse 
 } from "@/api/recommendationApi";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "@/hooks/use-toast";
 import JobDescriptionInput from "@/components/JobDescriptionInput";
 import AssessmentTable from "@/components/AssessmentTable";
 import { Assessment } from "@/data/assessments";
